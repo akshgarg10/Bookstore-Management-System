@@ -46,7 +46,7 @@
 <section>
         <h2 id="endpoints">Endpoints</h2>
 
-        <h3 id="login">Login</h3>
+<h3 id="login">Login</h3>
         <ul>
             <li><strong>Endpoint:</strong> <code>/api/login</code></li>
             <li><strong>Method:</strong> POST</li>
