@@ -1,4 +1,4 @@
-<h1><b></b>Bookstore Management System</h1>b></h1>
+<h1><b>Bookstore Management System<b></h1>
 
 
 <h2>Overview:</h2>
