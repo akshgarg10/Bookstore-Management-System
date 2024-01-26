@@ -3,7 +3,7 @@
 
 <h2>Overview:
 
-    The Bookstore Management System API is a simple Flask-based web service. It supports operations such as adding, retrieving, updating, and deleting books.The API is secured using JSON Web Tokens (JWT) for user authentication.
+The Bookstore Management System API is a simple Flask-based web service. It supports operations such as adding, retrieving, updating, and deleting books.The API is secured using JSON Web Tokens (JWT) for user authentication.
 </h2>
 
 
