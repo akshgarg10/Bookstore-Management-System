@@ -22,15 +22,15 @@ Table of Contents:
 
 Setup: 
 
-Prerequisites:
+    Prerequisites:
         (a)Python 3.6 or later
         (b)PostgreSQL database
         (c)requirements.txt file for installing dependencies
         (d)Flask, Psycopg2, Flask-JWT-Extended, and Dotenv libraries
     
-Authentication:
-    To access certain endpoints, you need to authenticate using JWT. 
-    Obtain a token by sending a POST request to /api/login with valid credentials.
+    Authentication:
+        To access certain endpoints, you need to authenticate using JWT. 
+        Obtain a token by sending a POST request to /api/login with valid credentials.
 
 Endpoints:
     Login:
