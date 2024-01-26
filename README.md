@@ -40,7 +40,6 @@
         Method: POST
             Description: Authenticates the user and provides a JWT for accessing protected endpoints.
         
-            <br>
     Add Book:
         Endpoint: /api/addBook
         Method: POST
