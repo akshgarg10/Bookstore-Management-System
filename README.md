@@ -45,83 +45,28 @@ Endpoints:
         Method: POST
         Authentication: Required
             Description: Adds a new book to the bookstore inventory.
-        Request Body:
-            {
-                "isbn": 1234567890,
-                "title": "Sample Book",
-                "author": "John Doe",
-                "price": 20,
-                "quantity": 100
-            }
-        Response:
-            {
-              "ISBN": 1234567890,
-              "Title": "Sample Book",
-              "Author": "John Doe",
-              "Price": 20,
-              "Quantity": 100
-            }
+        
     Delete Book:
         Endpoint: /api/deleteBook/<int:isbn>
         Method: DELETE
         Authentication: Required
           Description: Deletes a book from the bookstore inventory by ISBN.
-        Response:
-          {
-            "ISBN": 1234567890,
-            "Title": "Sample Book",
-            "Author": "John Doe",
-            "Price": 20,
-            "Quantity": 100
-          }
+        
     Get All Books:
         Endpoint: /api/getAllBooks
         Method: GET
         Authentication: Required
           Description: Retrieves details of all books in the bookstore inventory.
-        Response:
-          {
-            "books": [
-              {
-                "ISBN": 1234567890,
-                "Title": "Sample Book",
-                "Author": "John Doe",
-                "Price": 20,
-                "Quantity": 100
-              },
-              // More books...
-            ]
-          }
+        
     Get Book by ISBN:
         Endpoint: /api/getBook/<int:isbn>
         Method: GET
         Authentication: Required
           Description: Retrieves details of a specific book by ISBN.
-        Response:
-          {
-            "ISBN": 1234567890,
-            "Title": "Sample Book",
-            "Author": "John Doe",
-            "Price": 20,
-            "Quantity": 100
-          }
+        
     Update Book:
       Endpoint: /api/updateBook/<int:isbn>
       Method: PUT
       Authentication: Required
         Description: Updates details of a book in the bookstore inventory by ISBN.
-      Request Body:
-        {
-          "title": "Updated Book",
-          "author": "Jane Doe",
-          "price": 25,
-          "quantity": 150
-        }
-      Response:
-        {
-          "ISBN": 1234567890,
-          "Title": "Updated Book",
-          "Author": "Jane Doe",
-          "Price": 25,
-          "Quantity": 150
-        }
+      
