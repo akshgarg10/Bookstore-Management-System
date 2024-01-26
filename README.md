@@ -25,7 +25,7 @@
         </ol>
     </section>
 
-    <section>
+<section>
         <h2 id="setup">Setup</h2>
         <ul>
             <li><strong>Prerequisites:</strong></li>
@@ -38,7 +38,7 @@
         </ul>
     </section>
 
-    <section>
+<section>
         <h2 id="authentication">Authentication</h2>
         <p>To access certain endpoints, you need to authenticate using JWT. Obtain a token by sending a POST
             request to <code>/api/login</code> with valid credentials.</p>
