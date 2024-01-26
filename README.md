@@ -1,4 +1,4 @@
-Bookstore API Documentation
+    Bookstore API Documentation
 
 
 Overview: 
@@ -38,15 +38,7 @@ Endpoints:
         Endpoint: /api/login
         Method: POST
             Description: Authenticates the user and provides a JWT for accessing protected endpoints.
-        Request Body:
-            {
-                "username": "test_user",
-                "password": "test_password"
-            }
-        Response:
-            {
-                "access_token": "<your-access-token>"
-            }
+        
             <br>
     Add Book:
         Endpoint: /api/addBook
