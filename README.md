@@ -9,7 +9,7 @@
 
 
 
-Table of Contents:
+<h2>Table of Contents:</h2>
 
     1. Setup
     2. Authentication
@@ -21,7 +21,7 @@ Table of Contents:
         (e)Get Book by ISBN
         (f)Update Book
 
-Setup: 
+<h2>Setup: </h2>
 
     Prerequisites:
         (a)Python 3.6 or later
@@ -33,7 +33,7 @@ Setup:
         To access certain endpoints, you need to authenticate using JWT. 
         Obtain a token by sending a POST request to /api/login with valid credentials.
 
-Endpoints:
+<h2>Endpoints:</h2>
 
     Login:
         Endpoint: /api/login
