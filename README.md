@@ -22,7 +22,7 @@ Table of Contents:
 
 Setup: 
 
-    Prerequisites:
+Prerequisites:
         (a)Python 3.6 or later
         (b)PostgreSQL database
         (c)requirements.txt file for installing dependencies
