@@ -33,6 +33,7 @@ Setup:
         Obtain a token by sending a POST request to /api/login with valid credentials.
 
 Endpoints:
+<br>
     Login:
         Endpoint: /api/login
         Method: POST
@@ -46,6 +47,7 @@ Endpoints:
             {
                 "access_token": "<your-access-token>"
             }
+            <br>
     Add Book:
         Endpoint: /api/addBook
         Method: POST
