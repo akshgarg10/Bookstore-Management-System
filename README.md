@@ -14,12 +14,12 @@ Table of Contents:
     1. Setup
     2. Authentication
     3. Endpoints
-    (a)Login
-    (b)Add Book
-    (c)Delete Book
-    (d)Get All Books
-    (e)Get Book by ISBN
-    (f)Update Book
+        (a)Login
+        (b)Add Book
+        (c)Delete Book
+        (d)Get All Books
+        (e)Get Book by ISBN
+        (f)Update Book
 
 Setup: 
 
