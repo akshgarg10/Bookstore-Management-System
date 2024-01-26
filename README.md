@@ -11,9 +11,9 @@
 
 Table of Contents:
 
-1. Setup
-2. Authentication
-3. Endpoints
+    1. Setup
+    2. Authentication
+    3. Endpoints
     (a)Login
     (b)Add Book
     (c)Delete Book
