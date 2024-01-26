@@ -67,7 +67,7 @@
             </pre>
         </ul>
 
-        <h3 id="add-book">Add Book</h3>
+<h3 id="add-book">Add Book</h3>
         <ul>
             <li><strong>Endpoint:</strong> <code>/api/addBook</code></li>
             <li><strong>Method:</strong> POST</li>
