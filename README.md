@@ -43,3 +43,58 @@
         <p>To access certain endpoints, you need to authenticate using JWT. Obtain a token by sending a POST
             request to <code>/api/login</code> with valid credentials.</p>
     </section>
+<section>
+        <h2 id="endpoints">Endpoints</h2>
+
+        <h3 id="login">Login</h3>
+        <ul>
+            <li><strong>Endpoint:</strong> <code>/api/login</code></li>
+            <li><strong>Method:</strong> POST</li>
+            <li><strong>Description:</strong> Authenticates the user and provides a JWT for accessing protected
+                endpoints.</li>
+            <li><strong>Request Body:</strong></li>
+            <pre>
+{
+    "username": "test_user",
+    "password": "test_password"
+}
+            </pre>
+            <li><strong>Response:</strong></li>
+            <pre>
+{
+    "access_token": "&lt;your-access-token&gt;"
+}
+            </pre>
+        </ul>
+
+        <h3 id="add-book">Add Book</h3>
+        <ul>
+            <li><strong>Endpoint:</strong> <code>/api/addBook</code></li>
+            <li><strong>Method:</strong> POST</li>
+            <li><strong>Authentication:</strong> Required</li>
+            <li><strong>Description:</strong> Adds a new book to the bookstore inventory.</li>
+            <li><strong>Request Body:</strong></li>
+            <pre>
+{
+    "isbn": 1234567890,
+    "title": "Sample Book",
+    "author": "John Doe",
+    "price": 20,
+    "quantity": 100
+}
+            </pre>
+            <li><strong>Response:</strong></li>
+            <pre>
+{
+    "ISBN": 1234567890,
+    "Title": "Sample Book",
+    "Author": "John Doe",
+    "Price": 20,
+    "Quantity": 100
+}
+            </pre>
+        </ul>
+
+        <!-- Additional endpoints... -->
+
+</section>
